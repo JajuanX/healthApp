@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+.section {
+  margin: 0px;
+  text-align: center;
+  width: auto;
+}
+.childDiv {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+}
+.imgholder {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  margin-top: 70px;
+}
+.logos {
+  height: 10%;
+  width: 10%;
+  background-color: transparent;
+  margin: 50px;
+}
+.holder {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+}
+#header span {
+  position: absolute;
+  color: black;
+}
+span {
+  margin: 0px;
+  width: 100%;
+  display: block;
+  background-color: none;
+  font-size: 100px;
+}
+img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+#header {
+  background-color: black;
+  color: white;
+  height: 500px;
+  width: 100%;
+  overflow-y: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+#about {
+  background-color: white;
+  height: 726px;
+  margin: 0px;
+  padding: 0px;
+}
+#form {
+  background-color: black;
+  color: white;
+  height: 726px;
+  margin: 0px;
+  padding: 0px;
+}
+#footer {
+  background-color: white;
+  height: 350px;
+}
+@media only screen and (max-width: 750px) {
+    #header {
+        margin: 0px;
+        padding: 0px;
+        height: auto;
+        display: flex;
+    }
+    img {
+      height: 100%;
+      margin: 0px;
+    }
+}

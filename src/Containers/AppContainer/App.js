@@ -9,26 +9,31 @@ class App extends Component {
     return (
       <div className="App">
         <div className='section' id='header'>
-          <span>Header</span>
           <img src={photo}/>
         </div>
         <div className='section' id='about'>
           <div className='holder'>
-            <span>About</span>
-            <div className='childDiv'>1</div>
-            <div className='childDiv'>2</div>
-            <div className='childDiv'>3</div>
-            <div className='childDiv'>4</div>
-            <div className='childDiv'>5</div>
-            <div className='childDiv'>6</div>
+            <div className='childDiv'>This</div>
+            <div className='childDiv'>could</div>
+            <div className='childDiv'>be</div>
+            <div className='childDiv'>any</div>
+            <div className='childDiv'>info</div>
+            <div className='childDiv'>.</div>
           </div>
         </div>
-        <div className='section' id='form'>Form</div>
+        <div className='section' id='form'>
+          <span>Form Page</span>
+        </div>
         <div className='section' id='footer'>
           <div className='imgholder'>
             <img src={cigna} className='logos'/>
             <img src={multiplan} className='logos'/>
             <img src={unitedhealth} className='logos'/>
+            <p className='info'>
+              info@healthenrollment.com<br/>5285 Main Street, City, State 11111, USA
+              <br/>
+              Copyright ©2012 HealthEnrollment, All Rights Reserved.
+            </p>
           </div>
         </div>
       </div>

@@ -19,17 +19,21 @@
 .imgholder {
   width: auto;
   height: auto;
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
   justify-content: center;
-  align-items:center;
-  margin-top: 70px;
+  align-items: center;
+  margin-top: 0px;
 }
 .logos {
   height: 10%;
   width: 10%;
   background-color: transparent;
   margin: 50px;
+}
+.info {
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .holder {
   width: auto;
